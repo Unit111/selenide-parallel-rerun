@@ -7,3 +7,9 @@ This is an example project demostrating a few concepts I wanted to see working t
 
 You can run the tests using this Maven command:
 ```clean install -Dsurefire.rerunFailingTestsCount=2```
+
+Run tests by tag:
+```-Dgroups="tag1, tag2"```
+
+Exclude tags:
+```-DexcludedGroups="tag3, tag4"```
